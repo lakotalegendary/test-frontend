@@ -6,22 +6,23 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
 
 </head>
 <body>
     <div class="container">
-        <form action="" method="get">
-            <select name="" id="">
-                <option selected>Направление разработки</option>
-                <option value="backend">Backend</option>
-                <option value="frontend">Frontend</option>
-                <option value="mobile">Mobile</option>
-            </select>
-            <input type="submit" value="Загрузить">
-        </form>
-        <div class="inner">
-
+        <div class="row">
+            <div class="col-sm-12 d-flex justify-content-center">
+                <select name="select" id="select">
+                    <option selected>Направление разработки</option>
+                    <option value="backend">Back-end</option>
+                    <option value="frontend">Front-end</option>
+                    <option value="mobile">Mobile</option>
+                </select>
+                <button id="btn" type="submit" class="btn btn-primary">Загрузить</button>
+            </div>
+            <div id="result"  class="col-sm-12 d-flex justify-content-center"></div>
         </div>
     </div>
     <script
