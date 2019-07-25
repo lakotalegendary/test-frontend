@@ -23,6 +23,9 @@ p {
     border-radius: 3px;
     min-height: 77px;
 }
+#select {
+    margin-right: 10px;
+}
 .list-data div img {
     margin-right: 10px;
     height: 100%;
